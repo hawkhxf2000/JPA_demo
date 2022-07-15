@@ -26,9 +26,9 @@ public class UserTest {
     @Test
     public void save(){
         UserDemo userDemo = new UserDemo();
-        for (long i = 11; i < 21; i++) {
+        for (long i = 1; i < 11; i++) {
             String username = "user"+i;
-            userDemo.setId(i);
+            userDemo.setId(null);
             userDemo.setUsername(username);
             userDemo.setPassword("123456");
             userDemo.setNickname(username);
